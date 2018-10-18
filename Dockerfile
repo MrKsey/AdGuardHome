@@ -13,11 +13,12 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && export OS="linux" \
 && apt-get update && apt-get upgrade -y \
 && apt-get install --no-install-recommends -y ca-certificates wget curl \
-&& chmod a+rx /start_agh.sh && cd /opt \
+&& cd /opt \
 && wget --tries=3 $(curl -s $URL | grep browser_download_url | egrep -o 'http.+\.\w+' | grep -i "$(dpkg --print-architecture)" | grep -m 1 -i "$(echo $OS)") \
 && tar -xvzf *.tar.gz \
 && rm *.tar.gz \
-&& mkdir -p /opt/AdGuardHome/config && chmod -R a+rx /opt/AdGuardHome/config \
+&& mkdir /opt/AdGuardHome/config && chmod 555 /opt/AdGuardHome/config \
+&& chmod a+rx /start_agh.sh \
 && apt-get purge -y -q --auto-remove ca-certificates wget curl \
 && apt-get clean \
 && cd / \
