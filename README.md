@@ -12,10 +12,17 @@ More info:
 * server with docker
 * ~128 Mb RAM, ~100 Mb disk space 
 
-### Installing
+## Usage
 
-Create any directory (like /host/AdGuardHome) and connect this directory to the container directory "/etc/AdGuardHome":
+* create "/AdGuardHome" directory (for example) on your host.
+* create container from docker image "ksey/adguardhome", connect host "/AdGuardHome" directory to the container directory "/etc/AdGuardHome" and start container.
+
+Example:
 ```
 docker pull ksey/adguardhome
-docker run --name AdGuardHome -d -p 3000:3000 -p 53:53 -v /host/AdGuardHome:/etc/AdGuardHome ksey/adguardhome
+docker run --name AdGuardHome -d \
+-p 3000:3000 \
+-p 53:53 \
+-v /AdGuardHome:/etc/AdGuardHome ksey/adguardhome
+
 ```
