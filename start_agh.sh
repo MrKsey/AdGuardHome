@@ -1,9 +1,9 @@
 #!/bin/sh
 
-if [ ! -e /etc/AdGuardHome/AdGuardHome.yaml ]; then
-  cp /AdGuardHome.yaml /etc/AdGuardHome/AdGuardHome.yaml
+if [ ! -e /opt/AdGuardHome/config/AdGuardHome.yaml ]; then
+  cp /AdGuardHome.yaml /opt/AdGuardHome/config/AdGuardHome.yaml
 fi
 
-chmod 666 /etc/AdGuardHome/AdGuardHome.yaml
+chmod 666 /opt/AdGuardHome/config/AdGuardHome.yaml
 
-/opt/AdGuardHome/AdGuardHome -c /etc/AdGuardHome/AdGuardHome.yaml
+/opt/AdGuardHome/AdGuardHome -c /config/AdGuardHome.yaml
