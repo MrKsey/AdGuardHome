@@ -13,7 +13,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && export OS="linux" \
 && apt-get update && apt-get upgrade -y \
 && apt-get install --no-install-recommends -y ca-certificates wget curl \
-&& mkdir /etc/AdGuardHome && chmod 644 /etc/AdGuardHome && cd /opt \
+&& mkdir /etc/AdGuardHome && chmod 644 /etc/AdGuardHome && chmod a+x /start_agh.sh && cd /opt \
 && wget --tries=3 $(curl -s $URL | grep browser_download_url | egrep -o 'http.+\.\w+' | grep -i "$(dpkg --print-architecture)" | grep -m 1 -i "$(echo $OS)") \
 && tar -xvzf *.tar.gz \
 && rm *.tar.gz \
