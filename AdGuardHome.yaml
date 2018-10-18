@@ -17,7 +17,7 @@ coredns:
   - tls://1.0.0.1
 filters:
 - url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-  name: ""
+  name: AdGuard DNS Filter
   enabled: true
 - url: https://adaway.org/hosts.txt
   name: AdAway
