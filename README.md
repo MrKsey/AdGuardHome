@@ -20,8 +20,5 @@ More info:
 Example:
 ```
 docker pull ksey/adguardhome
-docker run --name AdGuardHome -d \
--p 3000:3000 \
--p 53:53/udp \
--v /AdGuardHome:/etc/AdGuardHome ksey/adguardhome
+docker run --name AdGuardHome -d -p 3000:3000 -p 53:53/udp -v /AdGuardHome:/etc/AdGuardHome ksey/adguardhome
 ```
