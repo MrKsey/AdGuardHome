@@ -9,16 +9,17 @@ More info:
 
 ### Requirements
 
-* server with docker
+* host with docker
 * ~128 Mb RAM, ~100 Mb disk space 
 
 ## Usage
 
-* create "/AdGuardHome" directory (for example) on your host.
+* docker host ip (for example) - 192.168.1.10 .
+* create "/AdGuardHome" directory on your docker host.
 * create container from docker image "ksey/adguardhome", connect host "/AdGuardHome" directory to the container directory "/opt/AdGuardHome/config" and start container.
 
 Example:
 ```
 docker pull ksey/adguardhome
-docker run --name AdGuardHome -d -p 53:53/udp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/config ksey/adguardhome
+docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/config ksey/adguardhome
 ```
