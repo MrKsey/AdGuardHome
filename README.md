@@ -15,10 +15,10 @@ More info:
 ## Usage
 
 * create "/AdGuardHome" directory (for example) on your host.
-* create container from docker image "ksey/adguardhome", connect host "/AdGuardHome" directory to the container directory "/etc/AdGuardHome" and start container.
+* create container from docker image "ksey/adguardhome", connect host "/AdGuardHome" directory to the container directory "/opt/AdGuardHome/config" and start container.
 
 Example:
 ```
 docker pull ksey/adguardhome
-docker run --name AdGuardHome -d -p 53:53/udp -p 3000:3000 -v /AdGuardHome:/etc/AdGuardHome ksey/adguardhome
+docker run --name AdGuardHome -d -p 53:53/udp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/config ksey/adguardhome
 ```
