@@ -19,7 +19,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && rm *.tar.gz \
 && mkdir /opt/AdGuardHome/config && chmod 555 /opt/AdGuardHome/config \
 && chmod a+rx /start_agh.sh \
-&& apt-get purge -y -q --auto-remove ca-certificates wget curl \
+&& apt-get purge -y -q --auto-remove wget curl \
 && apt-get clean \
 && cd / \
 && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
