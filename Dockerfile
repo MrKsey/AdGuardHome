@@ -17,12 +17,13 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && wget --tries=3 $(curl -s $URL | grep browser_download_url | egrep -o 'http.+\.\w+' | grep -i "$(dpkg --print-architecture)" | grep -m 1 -i "$(echo $OS)") \
 && tar -xvzf *.tar.gz \
 && rm *.tar.gz \
+&& mkdir -p /opt/AdGuardHome/config && chmod -R a+rx /opt/AdGuardHome/config \
 && apt-get purge -y -q --auto-remove ca-certificates wget curl \
 && apt-get clean \
 && cd / \
 && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
 
-VOLUME [ "/opt/AdGuardHome" ]
+VOLUME [ "/opt/AdGuardHome/config" ]
 
 EXPOSE 53/udp 3000
 
