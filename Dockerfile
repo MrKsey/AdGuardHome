@@ -5,10 +5,12 @@
 FROM debian:stable-slim
 MAINTAINER Bob <kcey@mail.ru>
 
-ENV URL=https://api.github.com/repos/AdguardTeam/AdGuardHome/releases/latest
-ENV OS="linux"
+COPY AdGuardHome.yaml /AdGuardHome.yaml
+COPY start_agh.sh /start_agh.sh
 
 RUN export DEBIAN_FRONTEND=noninteractive \
+&& export URL=https://api.github.com/repos/AdguardTeam/AdGuardHome/releases/latest \
+&& export OS="linux" \
 && apt-get update && apt-get upgrade -y \
 && apt-get install --no-install-recommends -y ca-certificates wget curl \
 && mkdir /etc/AdGuardHome && chmod 644 /etc/AdGuardHome && cd /opt \
@@ -20,12 +22,8 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && cd / \
 && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
 
-COPY AdGuardHome.yaml /etc/AdGuardHome/AdGuardHome.yaml
-
 VOLUME [ "/etc/AdGuardHome" ]
 
 EXPOSE 1053 3000
 
-ENTRYPOINT ["/opt/AdGuardHome/AdGuardHome"]
-
-CMD ["-c", "AdGuardHome.yaml"]
+ENTRYPOINT ["/start_agh.sh"]
