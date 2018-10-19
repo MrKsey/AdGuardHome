@@ -4,6 +4,8 @@ This is unofficial dockerized precompiled AdGuardHome within a debian:stable-sli
 
 AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that.
 
+![AdGuardHome](https://raw.githubusercontent.com/MrKsey/AdGuardHome/master/adh.PNG)
+
 More info:
 - https://github.com/AdguardTeam/AdGuardHome
 
