@@ -1,4 +1,3 @@
-# AdGuardHome
 ### Unofficial Docker Image for AdGuardHome
 This is unofficial dockerized precompiled AdGuardHome within a debian:stable-slim image.
 
@@ -17,8 +16,8 @@ More info:
 ## Usage
 
 * docker host ip (for example) - 192.168.1.10 .
-* create "/AdGuardHome" directory on your docker host.
-* create container from docker image "ksey/adguardhome", connect host "/AdGuardHome" directory to the container directory "/opt/AdGuardHome/config" and start container.
+* create ```/AdGuardHome``` directory on your docker host.
+* create container from docker image "ksey/adguardhome", connect host ```/AdGuardHome``` directory to the container directory ```/opt/AdGuardHome/config``` and start container.
 
 Example:
 ```
@@ -27,8 +26,8 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 3000:3000 -v /AdGu
 ```
 
 * AdGuardHome DNS works on 192.168.1.10, port 53
-* Open the browser and navigate to http://192.168.1.10:3000/ to control your AdGuardHome service. Default login and password - admin/admin.
-* Edit file /AdGuardHome/AdGuardHome.yaml (on the host) to change the password and other parameters.
+* Open the browser and navigate to http://192.168.1.10:3000/ to control your AdGuardHome service. Default login and password - ```admin/admin```.
+* Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
 
 # #
 ### AdguardTeam/AdGuardHome last release:
