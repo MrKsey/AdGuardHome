@@ -30,7 +30,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 3000:3000 -v /AdGu
 * Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2019-01-04 19:23:05: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.92-hotfix1:
 
 🔧 An urgent hotfix is on the way! 🔧
