@@ -22,7 +22,7 @@ More info:
 Example:
 ```
 docker pull ksey/adguardhome
-docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53/tcp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/config ksey/adguardhome
+docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53/tcp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/config --restart always ksey/adguardhome
 ```
 
 * AdGuardHome DNS works on 192.168.1.10, port 53
