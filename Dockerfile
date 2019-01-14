@@ -26,6 +26,6 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 VOLUME [ "/opt/AdGuardHome/config" ]
 
-EXPOSE 53/udp 3000
+EXPOSE 53/udp 53 3000
 
 ENTRYPOINT ["/start_agh.sh"]
