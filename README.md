@@ -29,3 +29,4 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 * Open the browser and navigate to http://192.168.1.10:3000/ to control your AdGuardHome service. Default login and password - ```admin/admin```.
 * Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
 
+# #
