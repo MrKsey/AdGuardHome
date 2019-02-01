@@ -38,3 +38,4 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 It appears that v0.92 messed with the Netflix app (see #534 and #521), so we had to release one more hotfix. Hopefully, this one is the last and there will be no other problems with v0.92.
 
 The only change is that AGH now additionally listens to TCP alongside with UDP: #521.
+# #
