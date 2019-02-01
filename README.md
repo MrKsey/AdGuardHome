@@ -39,3 +39,4 @@ It appears that v0.92 messed with the Netflix app (see #534 and #521), so we had
 
 The only change is that AGH now additionally listens to TCP alongside with UDP: #521.
 # #
+### AdguardTeam/AdGuardHome last release:
