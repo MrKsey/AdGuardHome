@@ -1,6 +1,8 @@
 ### Unofficial Docker Image for AdGuardHome
 This is unofficial dockerized precompiled AdGuardHome within a debian:stable-slim image.
 
+# Official Docker Image for AdGuardHome here - https://hub.docker.com/r/adguard/adguardhome
+
 AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that.
 
 ![AdGuardHome](https://raw.githubusercontent.com/MrKsey/AdGuardHome/master/adh.PNG)
