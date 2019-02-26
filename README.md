@@ -16,26 +16,20 @@ More info:
 ## Usage
 
 * docker host ip (for example) - 192.168.1.10 .
-* create ```/AdGuardHome``` directory on your docker host.
-* create container from docker image "ksey/adguardhome", connect host ```/AdGuardHome``` directory to the container directory ```/opt/AdGuardHome/config``` and start container.
+* create ```/AdGuardHome``` directory on your docker host for configuration files, filters and data.
+* create container from docker image "ksey/adguardhome", connect host ```/AdGuardHome``` directory to the container directory ```/opt/AdGuardHome/data``` and start container.
 
 Example:
 ```
 docker pull ksey/adguardhome
-docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53/tcp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/config --restart always ksey/adguardhome
+docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53/tcp -p 3000:3000 -v /AdGuardHome:/opt/AdGuardHome/data --restart always ksey/adguardhome
 ```
 
-* AdGuardHome DNS works on 192.168.1.10, port 53
-* Open the browser and navigate to http://192.168.1.10:3000/ to control your AdGuardHome service. Default login and password - ```admin/admin```.
+* When you run AdGuard Home for the first time, there is a simple configuration wizard.
+* Remember to set "Admin Web Interface" port to 3000.
+* AdGuardHome DNS works on 192.168.1.10, default port 53.
+* Open the browser and navigate to http://192.168.1.10:3000/ to control your AdGuardHome service.
 * Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
-
-
-
-
-
-
-
-
 
 
 # #
