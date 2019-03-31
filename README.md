@@ -123,3 +123,4 @@ We fixed the most pressing issues of our built-in DHCP server, and we're quite c
 * [Fixed] Windows: register service to work under "Local system" user: #598 
 * [Fixed] Change the default MalwareDomainList filter URL from HTTP to HTTPS: #621 
 * [Fixed] Empty domain gets to the "Top Queried" domains: #597 
+# #
