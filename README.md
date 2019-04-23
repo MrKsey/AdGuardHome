@@ -170,3 +170,42 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2019-04-23 18:18:34: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.95:
+
+As we all know, AdGuard Home is almost perfect (haha... no 🙃), so we had no other option for this update than to go with quality of life improvements. 
+
+Well, actually, we managed to scrape up *some* bugs for our devs to fix, so there are bugfixes if you are into them so much. Weirdo.
+
+### 🧙‍♂️ Initial configuration wizard
+
+* [Changed] It now checks for root access and solves some known issues automatically: #685 
+
+![image](https://user-images.githubusercontent.com/5947035/56598361-0534fa00-65fd-11e9-8353-9a4df86a7529.png)
+
+* [Fixed] Do not show 'port 443 is not available' error notification if encryption is not enabled: #700 
+* [Fixed] 'All Interfaces' redirects Wizard to 0.0.0.0 instead of the proper IP: #655 
+
+### 🌐 DHCP
+
+* [Added] AdGuard Home now suggests setting static IP address when the user tries to enable DHCP: #686 
+
+![image](https://user-images.githubusercontent.com/5947035/56598395-167e0680-65fd-11e9-9c62-692560ad6b33.png)
+
+* [Fixed] "Enable DHCP server" is always inactive in some cases: #704 
+* [Fixed] DHCP Lease Table - Mobile View Compatibility: #688 
+
+### Minor improvements
+
+* [Added] Enable gzip compression for static files in the admin interface: #626 
+* [Added] --pidfile argument: #609 
+* [Added] Enforce safe search on  🦆 DuckDuckGo: #603 
+* [Added] Prepare and publish a Privacy policy for AG Home: #393 
+* [Changed] Increase the default timeout used for downloading filters updates: #643 
+* [Changed] Disable SSL 3.0 and TLS 1.0 and 1.1: #651 
+
+### Fixed some annoying bugs
+
+* [Fixed] Prompting to update to 0.94 when 0.94 is updated and running: #660 
+* [Fixed] Chrome asks to translate English Web Interface from Portuguese: #656 
+* [Fixed] Filter list names are not showing for some lists: #661 
+* [Fixed] Missed translations on the settings screen: #652 
