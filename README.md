@@ -168,7 +168,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-# #
+
 ### AdguardTeam/AdGuardHome last release:
 2019-04-23 18:18:34: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.95:
 
