@@ -210,7 +210,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2019-04-24 13:38:10: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.95-hotfix:
 
 Bad things happen even to the best of AdGuard products. Yesterday's release contained a very bad, but thankfully easy-to-fix bug. Hotfixing it right away!
