@@ -47,3 +47,4 @@ Let me now get serious for a minute and describe what was fixed in this update:
 
 P.S. One a bright side, if you are using v0.96, you can now check out how the built-in update works. Please note that the update check is performed once in 8 hours.
 # #
+### AdguardTeam/AdGuardHome last release:
