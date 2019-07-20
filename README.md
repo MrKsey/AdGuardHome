@@ -34,7 +34,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 * Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2019-06-07 17:54:50: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.96-hotfix:
 
 We have a good tradition 🎂 Whenever a new version of AdGuard Home gets released, it is required to wait one day and then release a hotfix. Because having bugs in AGH releases is a tradition, too. Hm, now that I think of it, it's not that good of a tradition 🤔 In fact, I don't like it at all! 😡 And you can help us get rid of it forever, now that [Beta update channel](https://github.com/AdguardTeam/AdGuardHome#contributing) is available 🎉  
