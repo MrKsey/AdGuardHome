@@ -33,7 +33,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 * AdGuardHome DNS works on 192.168.1.10, default port 53.
 * Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
 
-# #
+
 ### AdguardTeam/AdGuardHome last release:
 2019-06-07 17:54:50: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.96-hotfix:
 
