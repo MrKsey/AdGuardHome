@@ -46,7 +46,7 @@ Let me now get serious for a minute and describe what was fixed in this update:
 * [Fixed] Wrong URL in the certificate expiration alert: #806 
 
 P.S. One a bright side, if you are using v0.96, you can now check out how the built-in update works. Please note that the update check is performed once in 8 hours.
-# #
+
 ### AdguardTeam/AdGuardHome last release:
 2019-07-17 11:38:27: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.97.1:
 
