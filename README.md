@@ -48,13 +48,13 @@ Let me now get serious for a minute and describe what was fixed in this update:
 P.S. One a bright side, if you are using v0.96, you can now check out how the built-in update works. Please note that the update check is performed once in 8 hours.
 
 
-2019-07-17 11:38:27: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.97.1:
 
-What time is it? It's a hotfix time! 🌶 Just to be clear, we're not exactly happy about it, but it needed to be done asap.
 
-By the way, fun fact: the more beta testers, the fewer hotfixes! 😮 So if you feel like moving to a beta build is a good idea (absolute madman!), get over to [this page](https://github.com/AdguardTeam/AdGuardHome#test-unstable-versions). We have beta builds for everything!
 
-* [Fixed] DHCP: Check if the subnet mask is correct #887
-* [Fixed] Windows: "Access denied" error on trying to remove a filter #878
-* [Fixed] Crash when global setting 'SafeSearch' is off #880
-* [Fixed] Filter rules were not unloaded after filter's checkbox has been unchecked #879
+
+
+
+
+
+
+
