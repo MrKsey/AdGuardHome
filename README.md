@@ -66,3 +66,4 @@ A quick hotfix for a release is like a cherry on top of a tasty cake. And it tur
 
 After this hotfix, the "Blocked services" settings won't reset every time you restart AG Home. You know, like they should have done in the first place. Bon appetit! 👌 
 # #
+### AdguardTeam/AdGuardHome last release:
