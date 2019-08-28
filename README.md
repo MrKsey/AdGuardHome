@@ -58,7 +58,7 @@ P.S. One a bright side, if you are using v0.96, you can now check out how the bu
 
 
 
-# #
+
 ### AdguardTeam/AdGuardHome last release:
 2019-08-22 13:14:12: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.98.1:
 
