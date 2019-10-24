@@ -129,3 +129,19 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2019-10-24 12:56:41: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.99.1:
+
+This hotfix is so hot, Scoville scale doesn't go high enough 🌶
+
+A bunch of leftover bugs after the v0.99 release have been fixed here.
+
+* [Changed] Enable DNS response compression: #1109 
+* [Fixed] Sign out button is shown even when not using AdGuard Home Authentication: #1093 
+* [Fixed] Unnecessary error alert: "New app version check is disabled by user": #1083 
+* [Fixed] Cannot update filters on Windows: #1088 
+* [Fixed] AGH does not resolve whois/rDNS info for non-A and non-AAAA queries: #1103 
+* [Fixed] Do not print the certificate and key contents to the log even when the verbose level is enabled: #1107 
+* [Fixed] Language issue: it looks as if "English" is selected even though the interface is in a different language: #1082 
+* [Fixed] Cannot write query log to file: #1115
+* [Fixed] Error reconfiguring DNS server on Windows due to delayed UDP socket unbinding: #1098 
+* [Fixed] Incorrect content type headers on API responses: #1086 
