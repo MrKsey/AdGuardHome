@@ -128,7 +128,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2019-10-24 12:56:41: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.99.1:
 
 This hotfix is so hot, Scoville scale doesn't go high enough 🌶
