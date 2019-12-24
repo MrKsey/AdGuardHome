@@ -169,3 +169,14 @@ Here's the full changelog:
 https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 # #
 ### AdguardTeam/AdGuardHome last release:
+2019-12-24 10:18:31: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.100.7:
+
+Here's another batch of fixes and improvements to keep you warm on Christmas Eve! ☕️ 
+
+* [Added] Redirect *.domain.com to a given IP: #922 
+* [Changed] Sort clients table by requests count by default: #1253 
+* [Fixed] Client setting are ignored for CNAME matching: #1274 
+* [Fixed] Responses by custom client upstreams are cached: #1301 
+* [Fixed] Do not set WhoisInfo for manually created clients: #1297 
+* [Fixed] Custom client Upstream instances should be cached: #1296 
+* [Fixed] Whois column is not needed in the "static" clients table: #1252 
