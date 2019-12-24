@@ -167,3 +167,4 @@ Well, except for a regular minor update with a few fixes and improvements.
 
 Here's the full changelog:
 https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
+# #
