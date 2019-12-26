@@ -168,7 +168,7 @@ Well, except for a regular minor update with a few fixes and improvements.
 Here's the full changelog:
 https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
-### AdguardTeam/AdGuardHome last release:
+
 2019-12-24 10:18:31: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.100.7:
 
 Here's another batch of fixes and improvements to keep you warm on Christmas Eve! ☕️ 
