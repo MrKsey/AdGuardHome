@@ -182,3 +182,9 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2019-12-25 21:09:41: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.100.8:
+
+Time for Christmas presents 🎄🎉 so here's one more tiny little update!
+
+* Updated translations: #1304
+* [Changed] Treat "://example.org" as "||example.org": #1249 
