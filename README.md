@@ -190,3 +190,12 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2020-01-15 10:58:44: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.100.9:
+
+A tentative update to see if we still got what it takes in the new year. Mostly bugfixes - the more interesting stuff will come a bit later 🧘
+
+* [Fixed] Make /etc/hosts syntax consistent with how /etc/hosts works on Linux: #1328
+* [Fixed] Bug with modifying client name: #1340
+* [Fixed] "Browsing security" and "Safe search" are reversed in the client settings: #1315
+* [Fixed] Client shows 0.0.0.0: #1329
+* [Fixed] AGH does not load long term query logs: #1275
