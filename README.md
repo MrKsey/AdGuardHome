@@ -189,7 +189,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2020-01-15 10:58:44: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.100.9:
 
 A tentative update to see if we still got what it takes in the new year. Mostly bugfixes - the more interesting stuff will come a bit later 🧘
