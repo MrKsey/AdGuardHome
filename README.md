@@ -200,7 +200,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2020-03-13 12:45:18: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.101.0:
 
 Due to the coronavirus 🦠, World Health Organization strongly recommends people to stay at homes. And just as much as means of physical protection are important to your personal health, cyber protection is crucial for the health of your home network. Under the circumstances, we decided it was high time 🕛 to release the next version of AdGuard Home 🏡 
