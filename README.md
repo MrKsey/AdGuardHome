@@ -293,7 +293,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2020-05-15 15:46:06: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.102.0:
 
 Finally, it's time for the next AdGuard Home release! This time we brought you some really cool features, stay with me to learn what's that all about.
