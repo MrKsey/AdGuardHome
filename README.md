@@ -373,7 +373,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2020-07-13 11:12:50: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.103.0-beta1:
 
 Now we will be publishing short release notes for every beta version that's being published.
