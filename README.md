@@ -521,25 +521,25 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-2020-07-17 17:59:59: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.103.0-beta2:
 
-### How to install AdGuard Home
 
-* [Getting Started guide](https://github.com/AdguardTeam/AdGuardHome/wiki/Getting-Started)
-* [Unstable versions (beta and edge)](https://github.com/AdguardTeam/AdGuardHome#test-unstable-versions)
 
-### Changelog
 
-4175d822 (HEAD -> master, tag: v0.103.0-beta2, origin/master, origin/HEAD) + client: 1889 Show a link to the FAQ article about Ubuntu when port 53 is in use Close #1889
-c1e56c83 + client: Update locales
-7d2c7a61 - client: Use the same tooltip style everywhere Close #1866
-82858474 (origin/feature-snap-desktop-icon, feature-snap-desktop-icon) Added desktop icon for a snap
-2d7be0a1 Merge: - auth: fix logic with --glinet argument
-e46db985 - client: Fix query logs UI issues Close #1828
-a32c1f2e - client: Fix client Access settings normalization Close #1820
-95f41285 Merge: - fix 'Check for Updates' button visibility Close #1878
-da4a1ec2 +client: "Drill down" to activity reports Close #1625
-8a417604 - client: Fix query logs UI issues Close #1828
-2759d81a Merge: + service: Adding freebsd arm support Close #1871
-44aad151 (origin/1871) + service: Adding freebsd arm support
-af5cb5aa Merge pull request #691 in DNS/adguard-home from agneevX-patch-1 to master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
