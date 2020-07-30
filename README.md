@@ -520,7 +520,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2020-07-17 17:59:59: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.103.0-beta2:
 
 ### How to install AdGuard Home
