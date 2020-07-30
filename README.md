@@ -544,3 +544,4 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 # #
+### AdguardTeam/AdGuardHome last release:
