@@ -545,19 +545,19 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-2020-07-24 17:41:30: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.103.3:
 
-Hotfixes are so much cooler than regular fixes:
 
-* Regular fixes are slow, hotfixes are quick to come
-* Fixing something is admitting your mistakes, hotfixing is proving you care
-* Fixes bore you with long changelogs, hotfixes get straight to the point
-* You can't say 'hotfix' without 'hot', and hot is cool :sunglasses:
 
-At AdGuard, we respect coolness, that's why we only hotfix. In this one, we address a couple of bugs from v0.103.
 
-* Several UI issues: #1926 #1934 #1927 #1922 #1916 #1921
-* Dashboard is loading very slowly when there are many IP/CIDR in the "Disallowed clients" list #1920
-* Fix DNS rewrites behavior for AAAA rewrites: #1918
 
-Have a good weekend everyone!
+
+
+
+
+
+
+
+
+
+
+
