@@ -543,7 +543,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-# #
+
 ### AdguardTeam/AdGuardHome last release:
 2020-07-24 17:41:30: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.103.3:
 
