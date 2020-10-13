@@ -656,3 +656,35 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2020-10-12 18:12:33: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.104.0-beta2:
+
+56e7b2f6b34415bf4ce4e259ca2f2d06866bcee7 - client: 2159 Fix general settings link to filters
+20226edbe312653404841efff540c399b65b5c95 - client: 2152 Do not show dashboard buttons on mobile screen, fix buttons on DNS block/allow lists pages
+1a3d98d3bfa74c601ebb6bc062c9d9f355bbee5a Pull request: + client: 2152 Smartphone compatible design for user interface
+398da7e2d3fec554db4bc7d658abf7c367cea9ab + client, home: 2110 Generate .mobileconfig
+65acfb75dd7fccb85cef72a790ecde8e65700612 Merge: + install.sh
+eb91c6cfe4d1664c9dae54543e663cf58f6a9731 Fix margins
+8fc18628637cdbce4532fb25cd3397feb43fc880 Fix markup
+fc4a5576109419e32a82b377647a96caf0c6a46b Fix dhcp interfaces markup
+fb7ca942437087a569700c7e160fb800a8ad45e4 - client: 1750 Display 0% at the bottom in the statistical chart
+78814064bdfb80d774bc71604e4e43b1b2266fb7 + client: 2154 Make renderCheckboxField a controlled input
+c98f18747c5173539560d7f83eef51eb1ef6e4f8 + client: 2152 Smartphone compatible design for user interface
+0ae00932e94429d25995114e2ba9a82f71377d79 + client: 2154 Make renderCheckboxField a controlled input
+8856dd6e4c15caddba2270d9c05995ba283a7b9a * (ui): fix date format
+a7d2dd7bdb3441f5c5770275ec1a3b74851cc6e6 - client: 2144 Fix DNS allowlists tab crash after opening "Choose blocklists" modal
+69a740714fb7e049a92f7d49449b91a334479472 * DNS: set default blocking mode to Null IP for A/AAAA, empty response for others
+128229ad736fce424166dc38dcaf17486fd8f1b5 + client: Add block and unblock buttons to 'check the filtering' result
+8c411c463030e0188a27c85db5ad545ab442cce8 2128 + service: Detect config file on service run correctly
+990f531f54dc31119e93a2d9762d11680282f772 + DHCP: add ra_slaac_only, ra_allow_slaac config settings
+6222d17d868c3e5edfc5cd7350abdb792460a3ef + clients: improve logic when processing "disallowed IP" property for a client
+c72cd58f69b71e4981d8b182b2f7d53ea5e30868 + client: Move the client access check to the server-side
+10f67bd383a543d40a591f0620e920ce4471cf8d + client, querylog: Add blocked service filter support
+805bd41c4d62cf5ecb00dc65ef0d7a72b4380154 * doc: "<key>" was treated as "" in a processed .md document
+1d36abd11ace412478f229712ae981415aa88e13 - querylogs: GET /control/querylog: "service_name" field wasn't set
+756f97ede1ba53c52eddb02e6020ede1b896cebd + upstream: Allow entering comments to the Upstreams box
+bf23aa4d9bfc665a0c51df19d382fb33846f81c0 + client: Replace TTL override zeroes with empty strings, update dnsproxy
+3a71374f9ff4484248ecb073f0a7282cec56ba23 - client: Return red background of Disallowed clients on the Dashboard
+9fd74748bb7ce84bea512c5a52bd927e88a00ed8 (origin/fix/2108) - client: Return red background of Disallowed clients on the Dashboard
+f694a40c572d2347279dbe1b3cae291ac9bfb0ee (origin/feature/translations_update, feature/translations_update) * : query log anonymization tool
+38066151a6fc404af68c38d71f9da41bde880ae6 * (ui): translations update
+deeaca5de1da8c4cccfd2ad89fdc1a9e1093c2de fix typo
