@@ -690,3 +690,18 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2020-10-22 21:39:52: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.104.0-beta3:
+
+6b64bfac00869512ab85a2bf655e8c591de704ab (HEAD -> master, tag: v0.104.0-beta3, origin/master, origin/HEAD) * (ui): update translations
+e37ccdbb702c537dfba4538274949fbacac7ab99 - (dnsforward): fix ipset race
+0b43bf4cd9c1cfafd906593bc75b415f8e1c2b6f * (dnsfilter): urlfilter v0.12.3 - $client modifier and CIDR
+fe87bdc9cd155440e767e4769f228373f7495089 * (documentation): added privacy to readme
+f75a0f8719124a0f5ca2d16b00601000aa6a66f8 - (ui): wrong link
+2ba85ba8e1f44638fed28ec40891a076daba9d51 - (ui): API requests don't work when reverse proxy is in use
+052a9ae19633d27db176d26369acc092ca085ecd - (home): test upstream shouldn't fail with upstreams file
+32b24ce0930cbdb9b759f77f2c0773f3e61cb7b3 + dnsfilter, client: Add qq to blocked services
+3acfaa162f811a7eff305120f175493aee29bad9 Pull reques: dnsfilter/blocked_services: update netflix with nflxso.net SLD
+345a97c4af97ae3906f5788dd091b0011b2e6fa3 Pull request: + client: Update dns examples
+a7cf717116a78dbbad086ec149584c7f3c45d33f Update DNS
+8315b46f306984cb03cd3363db3a2255c66bfdea Update DNS examples
+e0ddb1c0eacb6b60e61a6bac9e028ffc64debf04 dnsfilter/blocked_services: update netflix with nflxso.net SLD
