@@ -655,7 +655,7 @@ https://github.com/AdguardTeam/AdGuardHome/milestone/20?closed=1
 
 
 
-### AdguardTeam/AdGuardHome last release:
+
 2020-10-12 18:12:33: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.104.0-beta2:
 
 56e7b2f6b34415bf4ce4e259ca2f2d06866bcee7 - client: 2159 Fix general settings link to filters
