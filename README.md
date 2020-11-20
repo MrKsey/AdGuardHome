@@ -35,24 +35,24 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2020-11-11 13:53:05: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.104.1:
 
-Those who pay close attention to AdGuard Home releases know that we keep hotfixes close to our hearts 🔥♥️ This time we held for as long as we could, but ultimately gave in to the urge 😔
 
-Here's a patch to v0.104 with some fixes and minor improvements.
 
-##  Fixed
 
- *  Solve the `permission denied` error when launching a DHCP server on *Linux* using *Snap* (#2228).  Users experiencing this issue should refresh their snap and call:
-    ```sh
-    snap connect adguard-home:network-control
-    ```
-    This won't be required in the future versions.
- *  Use matching fonts in the *Custom Filters* textarea (#2254).
- *  Show the correct query type for DNS-over-QUIC queries in query log (#2241).
- *  Increase the default number of simultaneous requests to improve performance (#2257).
- *  Always set a secondary DNS in DHCP (#1708).
- *  Improve stability on DNS proxy restart (#2242).
- *  Improve logging on DNS proxy restart (#2252).
- *  Don't show a “Loading” message and don't rerequest logs once we've reached the end of logs on the query log page (#2229).
- *  Various internal improvements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
