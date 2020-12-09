@@ -58,19 +58,19 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2020-11-20 10:40:04: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.104.3:
 
-Bugfixes... 😌 There's something about them that we just can't resist. We always want more! 🧟 
 
-When there's nothing more to fix, we just roll out a new major update, introduce some fresh bugs and start all over. It's a circle of life ☯️
 
-Luckily, there are still some to prey upon in v0.104. Have a look at what we've fixed this time:
 
-##  Fixed
 
- *  Don't expose the profiler HTTP API (#2336).
- *  Load query logs from files after loading the ones buffered in memory (#2325).
- *  Don't show Unnecessary errors in logs when switching between query log files (#2324).
- *  Don't show `404 Not Found` errors on the DHCP settings page on *Windows*.  Show that DHCP is not currently available on that OS instead (#2295).
- *  Fix an infinite loop in the `/dhcp/find_active_dhcp` HTTP API method (#2301).
- *  Various internal improvements.
+
+
+
+
+
+
+
+
+
+
+
