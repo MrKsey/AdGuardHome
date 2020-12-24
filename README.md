@@ -76,26 +76,26 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2020-12-09 12:19:02: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.105.0-beta.1:
 
-### Added
 
-- Detecting of network interface configurated to have static IP address via `/etc/network/interfaces` (#2302).
-- DNSCrypt protocol support (#1361).
-- A 5 second wait period until a DHCP server's network interface gets an IP address (#2304).
-- `$dnstype` modifier for filters (#2337).
-- HTTP API request body size limit (#2305).
 
-### Changed
 
-- Post-updating relaunch possibility is now determined OS-dependently (#2231, #2391).
-- Made the mobileconfig HTTP API more robust and predictable, add parameters and improve error response (#2358).
-- Improved HTTP requests handling and timeouts (#2343).
-- Our snap package now uses the `core20` image as its base (#2306).
-- Various internal improvements (#2267, #2271, #2297).
 
-### Fixed
 
-- A mitigation against records being shown in the wrong order on the query log page (#2293).
-- A JSON parsing error in query log (#2345).
-- Incorrect detection of the IPv6 address of an interface as well as another infinite loop in the `/dhcp/find_active_dhcp` HTTP API (#2355).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
