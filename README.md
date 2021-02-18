@@ -176,3 +176,4 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 - The undocumented ability to use hostnames as any of `bind_host` values in configuration.  Documentation requires them to be valid IP addresses, and now the implementation makes sure that that is the case (#2508).
 - `Dockerfile` (#2276).  Replaced with the script `scripts/make/build-docker.sh` which uses `scripts/make/Dockerfile`.
 - Support for pre-v0.99.3 format of query logs (#2102).
+# #
