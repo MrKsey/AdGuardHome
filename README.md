@@ -202,3 +202,4 @@ Jokes aside, here's the list of things fixed and improved in this hotfix.
 - The request body size limit is now set for HTTPS requests as well.
 - Incorrect version tag in the Docker release (#2663).
 - DNSCrypt queries weren't marked as such in logs (#2662).
+# #
