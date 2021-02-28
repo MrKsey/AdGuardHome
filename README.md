@@ -32,29 +32,4 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 * Remember to set "Admin Web Interface" port to 3000.
 * AdGuardHome DNS works on 192.168.1.10, default port 53.
 * Edit file ```/AdGuardHome/AdGuardHome.yaml``` (on the host) to change the password and other parameters.
-# #
-### AdguardTeam/AdGuardHome last release:
-2021-02-15 19:24:31: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.105.1:
 
-Have you ever thought about why traditions are so important?🧙‍♂️ Traditions help us remember that we are part of a history that defines our past, shapes who we are today, and who we are likely to become. This is why we at AdGuard respect our traditions, and the most important one is pushing the inevitable hotfix right after every major update.🔥🔧
-
-Jokes aside, here's the list of things fixed and improved in this hotfix.
-
-### Changed
-
-- Increased HTTP API timeouts (#2671, #2682).
-- "Permission denied" errors when checking if the machine has a static IP no longer prevent the DHCP server from starting (#2667).
-- The server name sent by clients of TLS APIs is not only checked when `strict_sni_check` is enabled (#2664).
-- HTTP API request body size limit for the `POST /control/access/set` and `POST /control/filtering/set_rules` HTTP APIs is increased (#2666, #2675).
-
-### Fixed
-
-- Error when enabling the DHCP server when AdGuard Home couldn't determine if the machine has a static IP.
-- Optical issue on custom rules (#2641).
-- Occasional crashes during startup.
-- The field `"range_start"` in the `GET /control/dhcp/status` HTTP API response is now correctly named again (#2678).
-- DHCPv6 server's `ra_slaac_only` and `ra_allow_slaac` settings aren't reset to `false` on update any more (#2653).
-- The `Vary` header is now added along with `Access-Control-Allow-Origin` to prevent cache-related and other issues in browsers (#2658).
-- The request body size limit is now set for HTTPS requests as well.
-- Incorrect version tag in the Docker release (#2663).
-- DNSCrypt queries weren't marked as such in logs (#2662).
