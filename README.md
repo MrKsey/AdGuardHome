@@ -177,7 +177,7 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 - `Dockerfile` (#2276).  Replaced with the script `scripts/make/build-docker.sh` which uses `scripts/make/Dockerfile`.
 - Support for pre-v0.99.3 format of query logs (#2102).
 
-### AdguardTeam/AdGuardHome last release:
+
 2021-02-15 19:24:31: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.105.1:
 
 Have you ever thought about why traditions are so important?🧙‍♂️ Traditions help us remember that we are part of a history that defines our past, shapes who we are today, and who we are likely to become. This is why we at AdGuard respect our traditions, and the most important one is pushing the inevitable hotfix right after every major update.🔥🔧
