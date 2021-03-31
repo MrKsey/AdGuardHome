@@ -61,20 +61,20 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2021-03-10 14:39:28: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.105.2:
 
-There are big flashy updates, and there are seemingly unassuming ones, which constitute, however, the backbone of any successful project. This is the latter, as you may have guessed. You'll find here a heap of bugfixes and a security update for [CVE-2021-27935](https://nvd.nist.gov/vuln/detail/CVE-2021-27935).
 
-### Security
 
-- Session token doesn't contain user's information anymore (#2470).
 
-### Fixed
 
-- Incomplete hostnames with trailing zero-bytes handling (#2582).
-- Wrong DNS-over-TLS ALPN configuration (#2681).
-- Inconsistent responses for messages with EDNS0 and AD when DNS caching is enabled (#2600).
-- Incomplete OpenWRT detection (#2757).
-- DHCP lease's `expired` field incorrect time format (#2692).
-- Incomplete DNS upstreams validation (#2674).
-- Wrong parsing of DHCP options of the `ip` type (#2688).
+
+
+
+
+
+
+
+
+
+
+
+
