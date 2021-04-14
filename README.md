@@ -113,3 +113,31 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2021-04-14 12:55:03: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.0-b.2:
+
+Changes compared to the previous beta, v0.106.0-b.1.  See [CHANGELOG.md] for all changes.
+
+### Added
+
+- New flag `--no-etc-hosts` to disable client domain name lookups in the operating system's /etc/hosts files (#1947).
+- The ability to set up custom upstreams to resolve PTR queries for local addresses and to disable the automatic resolving of clients' addresses (#2704).
+- Logging of the client's IP address after failed login attempts (#2824).
+- Search by clients' names in the query log (#1273).
+- Verbose version output with `-v --version` (#2416).
+
+### Changed
+
+- Normalization of hostnames with spaces sent by DHCP clients (#2945).
+- The access to the private hosts is now forbidden for users from external networks (#2889).
+- The reverse lookup for local addresses is now performed via local resolvers (#2704).
+- Stricter validation of the IP addresses of static leases in the DHCP server with regards to the netmask (#2838).
+- Stricter validation of `$dnsrewrite` filter modifier parameters (#2498).
+
+### Fixed
+
+- Comment handling in clients' custom upstreams (#2947).
+- Overwriting of DHCPv4 options when using the HTTP API (#2927).
+- Assumption that MAC addresses always have the length of 6 octets (#2828).
+- Various other bugs.
+
+[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.106.0-b.2/CHANGELOG.md
