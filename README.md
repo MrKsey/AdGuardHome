@@ -80,34 +80,34 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2021-03-30 10:52:07: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.0-b.1:
 
-Changes compared to v0.105.2.  See [CHANGELOG.md] for all changes.
 
-### Added
 
-- The ability to set a custom TLD for known local-network hosts (#2393).
-- The ability to serve DNS queries on multiple hosts and interfaces (#1401).
-- `ips` and `text` DHCP server options (#2385).
-- `SRV` records support in `$dnsrewrite` filters (#2533).
 
-### Changed
 
-- Stricter validation of the IP addresses of static leases in the DHCP server with regards to the netmask (#2838).
-- Stricter validation of `$dnsrewrite` filter modifier parameters (#2498).
-- New, more correct versioning scheme (#2412).
 
-### Deprecated
 
-- Go 1.15 support.  v0.107.0 will require at least Go 1.16 to build.
 
-### Fixed
 
-- Support for more than one `/24` subnet in DHCP (#2541).
-- Invalid filenames in the `mobileconfig` API responses (#2835).
 
-### Removed
 
-- Go 1.14 support.
 
-[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.106.0-b.1/CHANGELOG.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
