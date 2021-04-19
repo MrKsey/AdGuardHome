@@ -143,3 +143,23 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2021-04-19 15:25:53: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.0-b.3:
+
+Changes compared to the previous beta, v0.106.0-b.2.  See [CHANGELOG.md] for all changes.
+
+### Added
+
+- Hostname generating for DHCP clients which don't provide their own (#2723).
+- The ability to set a custom TLD or domain name for known hosts in the local network (#2393, #2961).
+
+### Changed
+
+- Quality of logging (#2954).
+- Normalization of hostnames sent by DHCP clients (#2952).
+
+### Fixed
+
+- A bug in `--no-etc-hosts` handling that removed permanent clients (#2956).
+- Inconsistent resolving of DHCP clients when the DHCP server is disabled (#2934).
+
+[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.106.0-b.3/CHANGELOG.md
