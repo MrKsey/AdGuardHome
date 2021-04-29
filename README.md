@@ -165,21 +165,21 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2021-04-21 14:35:24: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.0-b.4:
 
-Changes compared to the previous beta, v0.106.0-b.3.  See [CHANGELOG.md] for all changes.
 
-### Added
 
-- Hostname uniqueness validation in the DHCP server (#2952).
 
-### Changed
 
-- Our DoQ implementation is now updated to conform to the latest standard [draft][doq-draft-02] (#2843).
 
-### Fixed
 
-- Configuration file migration (#2988).
 
-[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.106.0-b.4/CHANGELOG.md
-[doq-draft-02]: https://tools.ietf.org/html/draft-ietf-dprive-dnsoquic-02
+
+
+
+
+
+
+
+
+
+
