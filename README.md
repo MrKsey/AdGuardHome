@@ -253,18 +253,18 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2021-04-30 13:45:07: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.1:
 
-We had a release a couple days ago. You all knew it would come to this. 🦸
 
-It's Friday. 
 
-It's hotfix time! 🔥
 
-Nothing serious though, we didn't even break anything. Just cleaning up some minor bugs. 🧹
 
-### Fixed
 
-- Local domain name handling when the DHCP server is disabled (#3028).
-- Normalization of perviously-saved invalid static DHCP leases (#3027).
-- Validation of IPv6 addresses with zones in system resolvers (#3022).
+
+
+
+
+
+
+
+
+
