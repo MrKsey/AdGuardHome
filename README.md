@@ -270,3 +270,13 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2021-05-06 16:36:44: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.2:
+
+It's not Friday? Not a problem! We defy the tradition of Friday hotfixes by rushing another one out a day earlier 🙌
+
+A special thanks to our open-source contributor, @jankais3r, as well as to everyone who filed issues, added translations, and helped us to test this release!
+
+### Fixed
+
+- Uniqueness validation for dynamic DHCP leases (#3056).
+- Various other issues (#3075, #3077).
