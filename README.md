@@ -310,3 +310,31 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2021-06-01 14:01:00: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.107.0-b.1:
+
+### Added
+
+- `darwin/arm64` support (#2443).
+- `freebsd/arm64` support (#2441).
+- Output of the default addresses of the upstreams used for resolving PTRs for private addresses (#3136).
+- Detection and handling of recurrent PTR requests for locally-served addresses (#3185).
+- The ability to completely disable reverse DNS resolving of IPs from locally-served networks (#3184).
+- New flag `--local-frontend` to serve dinamically changeable frontend files from disk as opposed to the ones that were compiled into the binary.
+
+### Changed
+
+- Permissions on filter files are now `0o644` instead of `0o600` (#3198).
+
+### Deprecated
+
+- Go 1.16 support.  v0.108.0 will require at least Go 1.17 to build.
+
+### Fixed
+
+- Domain name case in responses (#3194).
+- Custom upstreams selection for clients with client IDs in DNS-over-TLS and DNS-over-HTTP (#3186).
+- Incorrect client-based filtering applying logic (#2875).
+
+### Removed
+
+- Go 1.15 support.
