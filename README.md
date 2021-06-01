@@ -282,29 +282,29 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2021-05-19 13:38:41: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.106.3:
 
-More! More bugfixes! 🧟‍♀️
 
-But this time, for a change, there's a couple of new minor features to go with them. Hope you don't mind 🤷‍♂️
 
-A special thanks to our open-source contributor, @ashishwt, as well as to everyone who filed and inspected issues, added translations, and helped us to test this release!
 
-### Added
 
-- Support for reinstall (`-r`) and uninstall (`-u`) flags in the installation script (#2462).
-- Support for DHCP `DECLINE` and `RELEASE` message types (#3053).
 
-### Changed
 
-- Add microseconds to log output.
 
-### Fixed
 
-- Intermittent "Warning: ID mismatch" errors (#3087).
-- Error when using installation script on some ARMv7 devices (#2542).
-- DHCP leases validation (#3107, #3127).
-- Local PTR request recursion in Docker containers (#3064).
-- Ignoring client-specific filtering settings when filtering is disabled in general settings (#2875).
-- Disallowed domains are now case-insensitive (#3115).
-- Other minor fixes and improvements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
