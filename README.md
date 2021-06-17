@@ -340,3 +340,25 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2021-06-16 11:31:29: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.107.0-b.2:
+
+Changes compared to the previous beta, v0.107.0-b.1. See [CHANGELOG.md] for all changes.
+
+### Added
+
+- The ability to set the timeout for querying the upstream servers (#2280).
+- The ability to change group and user ID on startup on Unix (#2763).
+- Experimental OpenBSD support for AMD64 and 64-bit ARM CPUs (#2439).
+- Support for custom port in DNS-over-HTTPS profiles for Apple's devices (#3172).
+
+### Changed
+
+- The setting `rlimit_nofile` is now in the `os` block of the configuration file, together with the new `group` and `user` settings (#2763).
+
+### Fixed
+
+- Errors when setting static IP on Linux (#3257).
+- Treatment of domain names and FQDNs in custom rules with `$dnsrewrite` that use the `PTR` type (#3256).
+- Redundant hostname generating while loading static leases with empty hostname (#3166).
+
+[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.107.0-b.2/CHANGELOG.md
