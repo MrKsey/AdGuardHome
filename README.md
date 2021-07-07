@@ -364,25 +364,25 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 
 
-2021-06-29 15:49:56: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.107.0-b.3:
 
-Changes compared to the previous beta, v0.107.0-b.2. See [CHANGELOG.md] for all changes.
 
-### Added
 
-- Blocking access using client IDs (#2624, #3162).
-- `source` directives support in `/etc/network/interfaces` on Linux (#3257).
-- RFC 9000 support in DNS-over-QUIC.
-- Completely disabling statistics by setting the statistics interval to zero (#2141).
-- The ability to completely purge DHCP leases (#1691).
 
-### Changed
 
-- Internationalized domains are now shown decoded in the query log with the original encoded version shown in request details (#3013).
-- When /etc/hosts-type rules have several IPs for one host, all IPs are now returned instead of only the first one (#1381).
 
-### Fixed
 
-- Occasional breakages on network errors with DNS-over-HTTP upstreams (#3217).
 
-[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.107.0-b.3/CHANGELOG.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
