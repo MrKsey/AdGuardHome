@@ -388,3 +388,21 @@ docker run --name AdGuardHome -d -p 192.168.1.10:53:53/udp -p 192.168.1.10:53:53
 
 # #
 ### AdguardTeam/AdGuardHome last release:
+2021-07-07 11:53:58: [AdguardTeam/AdGuardHome, RELEASE] AdGuard Home v0.107.0-b.4:
+
+Changes compared to the previous beta, v0.107.0-b.3. See [CHANGELOG.md] for all changes.
+
+### Added
+
+- New possible value of `6h` for `querylog_interval` setting (#2504).
+
+### Changed
+
+- `querylog_interval` setting is now formatted in hours.
+- Query log search now supports internationalized domains (#3012).
+
+### Fixed
+
+- `index out of range` panic introduced in v0.107.0-b.3 (#3318).
+
+[CHANGELOG.md]: https://github.com/AdguardTeam/AdGuardHome/tree/v0.107.0-b.4/CHANGELOG.md
